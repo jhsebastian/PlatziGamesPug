@@ -127,3 +127,39 @@ footer li {
 	list-style: none;
 	margin: 0 20px;
 }
+
+.menu {
+	display: flex;
+}
+
+.menu__lista {
+	width: 25%;
+	background-color: rgb(211, 218, 231);
+	padding-left: 20px;
+	padding-top: 100px;
+	height: 72vh;
+}
+
+.menu__lista ul.lista--items {
+	padding-left: 0;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.menu__lista li {
+	list-style: none;
+	margin: 20px 20px 40px 0;
+	color: rgb(124, 147, 204);
+}
+
+.menu__contenido {
+	width: 60%;
+	padding-left: 60px;
+	padding-top: 100px;
+}
+
+.menu__contenido > p {
+	text-align: justify;
+}
